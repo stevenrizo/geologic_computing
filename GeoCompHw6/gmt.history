@@ -1,0 +1,8 @@
+# GMT 5 Session common arguments shelf
+BEGIN GMT 5.2.1
+B	xa10+lDepth in km
+J	M
+JM	M5i
+R	d-122.176257669/-122.043742331/42.8997306397/42.9805387205
+L	3
+END

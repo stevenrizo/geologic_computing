@@ -1,0 +1,5 @@
+gmt pscoast -JM5i -R-128/-118/42/48 -Df -N1 -N2 -W1p -G200 -Ba2 -BNSEW -V -K > pscoast_crater_lake.eps
+gmt psxy cl_location.dat -J -R -St0.4c -Gred -V -O -K >> pscoast_crater_lake.eps
+gmt pstext cl_location.dat -J -R -F+f8p,1,0+a0,+jLT -V -O -K >> pscoast_crater_lake.eps
+gmt pstext txt_location.dat -J -R -F+f16p,1,0+a0,+jLT -V -O >> pscoast_crater_lake.eps
+gmt psconvert pscoast_crater_lake.eps -A -P -Tg -V

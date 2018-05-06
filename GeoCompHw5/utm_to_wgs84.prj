@@ -1,0 +1,1 @@
+proj -I +proj=utm +ellips=WGS84 +zone=10 -f "%.6f" filtered_crater_lake_data.xyz > longlat_crater_lake.dat
